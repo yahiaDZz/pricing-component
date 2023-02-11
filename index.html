@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise 
+    in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-200">
+    <div class="grid mt-5 place-items-center space-y-5">
+      <h1 class="text-3xl font-bold">Our Pricing</h1>
+      <div class="flex sm:flex-col justify-between space-x-5">
+        <h3 class="font-thin">Annually</h3>
+        <div class="flex">
+          <label id="duration" class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" />
+            <div
+              class="w-11 h-6 bg-blue-400 peer-focus:outline-none dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-400"
+            ></div>
+          </label>
+        </div>
+        <h3 class="font-thin">Monthly</h3>
+      </div>
+    </div>
+    <div class="mt-10">
+      <div class="container mx-auto flex">
+        <div
+          class="w-full bg-white flex-col space-y-4 items-center p-5 text-center rounded-lg"
+        >
+          <h1 class="font-semibold">Basic</h1>
+          <h1 id="basic" class="text-6xl font-bold">
+            <span class="text-2xl">&dollar;</span>199.99
+          </h1>
+          <h1 class="border-t-2 border-gray-200 font-semibold pt-2">
+            500 GB Storage
+          </h1>
+          <h1 class="border-t-2 border-gray-200 font-semibold pt-2">
+            2 Users Allowed
+          </h1>
+          <h1
+            class="border-t-2 border-b-2 pb-2 font-semibold border-gray-200 pt-2"
+          >
+            Send up to 3 GB
+          </h1>
+          <button
+            class="w-full hover:text-purple-600 transition duration-500 ease-in-out text-white tracking-widest text-sm bg-purple-500 hover:bg-white uppercase border-[1.5px] font-semibold border-purple-300 py-2 rounded-lg"
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          class="scale-y-105 text-white w-full bg-gradient-to-br from-purple-500 to-purple-600 flex-col space-y-4 items-center p-6 text-center rounded-lg"
+        >
+          <h1 class="font-semibold">Professional</h1>
+          <h1 id="prof" class="text-6xl font-bold">
+            <span class="text-2xl">&dollar;</span>249.99
+          </h1>
+          <h1 class="border-t-[1.5px] border-gray-400 font-semibold pt-2">
+             1 TB Storage
+          </h1>
+          <h1 class="border-t-[1.5px] border-gray-400 font-semibold pt-2">
+            5 Users Allowed
+          </h1>
+          <h1
+            class="border-t-[1.5px] border-gray-400 border-b-[1.5px] pb-2 font-semibold pt-2"
+          >
+            Send up to 10 GB
+          </h1>
+          <button
+            class="w-full hover:text-white transition duration-500 ease-in-out text-purple-500 tracking-widest text-sm bg-white hover:bg-purple-500 uppercase border-[1.5px] font-semibold border-purple-300 py-2 rounded-lg"
+          >
+            Learn More
+          </button>
+        </div>
+        <div
+          class="w-full bg-white flex-col space-y-4 items-center p-5 text-center rounded-lg"
+        >
+          <h1 class="font-semibold">Master</h1>
+          <h1 id="master" class="text-6xl font-bold">
+            <span class="text-2xl">&dollar;</span>399.99
+          </h1>
+          <h1 class="border-t-2 border-gray-200 font-semibold pt-2">
+             2 TB Storage
+          </h1>
+          <h1 class="border-t-2 border-gray-200 font-semibold pt-2">
+            10 Users Allowed
+          </h1>
+          <h1
+            class="border-t-2 border-b-2 pb-2 font-semibold border-gray-200 pt-2"
+          >
+            Send up to 20 GB
+          </h1>
+          <button
+            class="w-full hover:text-purple-600 transition duration-500 ease-in-out text-white tracking-widest text-sm bg-purple-500 hover:bg-white uppercase border-[1.5px] font-semibold border-purple-300 py-2 rounded-lg"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Yahia Abdeldjalil</a>.
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
